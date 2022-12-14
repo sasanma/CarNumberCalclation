@@ -1,0 +1,36 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  margin: 0;
+  -webkit-appearance: none;
+}
+
+.input_num {
+    text-align: center;
+}
+
+body {
+    text-align: center;
+}
+
+input {
+  padding: 5px;
+  margin: 5px;
+  letter-spacing: 3px;
+}
+
+#select_value {
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+}
+
+#result_table {
+  margin: auto;
+  border: 2px black solid;
+  border-collapse: collapse;
+}
+
+th,td {
+  padding: 5px;
+  border: 1px black solid;
+}

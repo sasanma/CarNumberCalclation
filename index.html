@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>車ナンバー四則演算</title>
+</head>
+<body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <h1>車ナンバー四則演算</h1>
+    <p>1～9999の数字を入力してください</p>
+    <input type="number" min="1" max="9999" class="input_num">
+    <br>
+    <button type="submit" id="decide">確定</button>
+    <br>
+    <p>答えの値</p>
+    <select name="value" id="select_value"></select>
+    <h2>式と答え</h2>
+    <table id="result_table">
+        <tr>
+            <th>式</th>
+            <th>答え</th>
+        </tr>
+    </table>
+    <script src="car_number.js"></script>
+</body>
+</html>
